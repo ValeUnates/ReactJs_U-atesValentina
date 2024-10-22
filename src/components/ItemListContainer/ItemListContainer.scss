@@ -1,0 +1,14 @@
+.Item-List-container{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    column-gap: normal;
+
+    .card{
+    width: 30%;
+    background-color: rgb(231, 199, 132);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+}

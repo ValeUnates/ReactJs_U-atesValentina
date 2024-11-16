@@ -1,0 +1,79 @@
+.formulario{
+    margin-top: 80px;
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+}
+
+.nombre{
+    color:black;
+    font-family:sans-serif;
+}
+
+.telefono{
+    color:black;
+    font-family:sans-serif;
+}
+
+.email{
+    color:black;
+    font-family:sans-serif;
+}
+
+.enviar{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.enviar:hover{
+    cursor: pointer;
+    background-color: rgb(36, 29, 29);
+    border: 1px solid rgb(243, 237, 237);
+    color: rgb(98, 53, 19);
+}
+
+.checkout{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mensaje-orden{
+    color:black;
+    font-size: 30px;
+    text-shadow: 2px 0 0 grey;
+    margin-bottom: 20px;
+}
+
+.numero-seguimiento{
+    color:black;
+    font-weight: bold;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.volver-inicio{
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(42, 42, 42);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.volver-inicio:hover{
+    border: 1px solid #754e25;
+    color: #704410;
+    cursor: pointer;
+}

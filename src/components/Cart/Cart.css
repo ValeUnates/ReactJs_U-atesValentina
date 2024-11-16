@@ -1,0 +1,97 @@
+.cart .item-cart{
+    
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgb(42, 42, 42);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo-cart{
+    padding: 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nombre-cart{
+    font-size: large;
+    text-decoration: double;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.borrar-producto{
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(42, 42, 42);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 20px;
+}
+.borrar-producto:hover{
+    border: 1px solid #754e25;
+    color: #704410;
+    cursor: pointer;
+}
+
+.precio-total{
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(10, 8, 8);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 20px;
+}
+
+.borrar-carrito{
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(42, 42, 42);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 20px;
+}
+
+.borrar-carrito:hover{
+    border: 1px solid #754e25;
+    color: #704410;
+    cursor: pointer;
+}
+
+.terminar-compra{
+    width: 200px;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: rgb(42, 42, 42);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 20px;
+}
+.terminar-compra:hover{
+    border: 1px solid #754e25;
+    color: #704410;
+    cursor: pointer;
+}
+
+.empty-cart{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.home{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(42, 42, 42);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10p
+}

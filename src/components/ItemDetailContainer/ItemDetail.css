@@ -1,0 +1,37 @@
+.detail{
+    display: flex;
+    background-color:#301903c0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: rgb(215, 152, 97)
+}
+.img-detail{
+    display: flex;
+    width:30%;
+    margin: 10px;
+}
+.nombre-detail{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+.descripcion-detail{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    color: grey;
+    background: #000;
+}
+.boton-terminar{
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(42, 42, 42);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.boton-terminar:hover{
+    border: 1px solid #754e25;
+    color: #704410;
+    cursor: pointer;
+}

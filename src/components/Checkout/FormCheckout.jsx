@@ -13,6 +13,8 @@ const FormCheckout = ({dataForm, handleChangeInput, handleSubmitForm}) => {
 
         <label className='email'>Email</label>
         <input type="email" name='email' value={dataForm.email} onChange={handleChangeInput}/>
+        <label className='email'>Repita su email</label>
+        <input type="email" name='email' value={dataForm.email} onChange={handleChangeInput}/>
 
         <button className='enviar' type='submit'>Enviar mi orden</button>
 
